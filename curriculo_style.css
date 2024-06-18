@@ -1,0 +1,94 @@
+@charset "UTF-8";
+    html{
+    min-height: 100vh;
+    max-height: 1080px;
+    max-width: 1920px;
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    }
+        body{
+            background-color: white;
+            margin: 0 4vw;
+            border: 1px solid #ccc;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }   
+            header.picture{
+                padding-top: 4vw;
+                margin: 0 4vw;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+                div#fotocurriculo{
+                    width: 18vw;
+                    height: 18vw;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    border: #132f3a solid 0.5rem;
+                }
+                    div#fotocurriculo img{
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                section.me{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                    hgroup#name{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        }
+                            hgroup#name h1{
+                                font-size: 5vw;
+                                margin-bottom: 1vw;
+                            }
+                    hgroup#infome{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+            main#content{
+                margin: 0 4vw;
+            }
+                main#content h2{
+                    background-color: #132f3a;
+                    color: white;
+                    padding: 2vw;
+                    text-align: center;
+                    border-radius: 10px;
+                }
+                div#experiencia p#c{
+                    margin: -1vw 0 0 5vw;
+                }
+                div#aptidoes li{
+                    font-size: 2vw;
+                    margin-left: 2vw;
+                }
+            footer{
+                margin-top: 3vw;
+                font-size: 2vw;
+                background-color: #132f3a;
+                color: #e6f1f3;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+            }
+                footer img{
+                    max-width: 2vw;
+                }
+                footer a{
+                    
+                    text-decoration: none;
+                    text-align: center;
+                    color: white;
+                }
